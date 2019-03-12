@@ -1,4 +1,10 @@
 # composer related
 composer.lock
 composer.phar
-vendor
+vendor/
+
+# IDE
+.buildpath
+.project
+.settings
+.idea

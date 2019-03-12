@@ -1,43 +1,50 @@
 {
-    "authors": [
-        {
-            "email": "thesaur@php.net",
-            "name": "Klaus Guenther",
-            "role": "Lead"
-        },
-        {
-            "email": "avb@php.net",
-            "name": "Alexey Borzov",
-            "role": "Lead"
-        },
-        {
-            "email": "bmansion@mamasam.com",
-            "name": "Bertrand Mansion",
-            "role": "Lead"
-        },
-        {
-            "email": "adaniel1@eesus.jnj.com",
-            "name": "Adam Daniel",
-            "role": "Lead"
-        }
-    ],
-    "autoload": {
-        "classmap": [
-            "./"
-        ]
+  "name": "znk3r/html_common",
+  "type": "library",
+  "description": "PHP 7 compatible fork of HTML_Common",
+  "keywords": [ "php7", "html", "pear" ],
+  "homepage": "https://github.com/znk3r/HTML_Common",
+  "license": "PHP License",
+  "authors": [
+    {
+      "email": "thesaur@php.net",
+      "name": "Klaus Guenther",
+      "role": "Lead"
     },
-    "description": "More info available on: http://pear.php.net/package/HTML_Common",
-    "license": "PHP License",
-    "name": "pear/html_common",
-    "support": {
-        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=HTML_Common",
-        "source": "https://github.com/pear/HTML_Common"
+    {
+      "email": "avb@php.net",
+      "name": "Alexey Borzov",
+      "role": "Lead"
     },
-    "type": "library",
-    "require": {
-        "pear/pear_exception": "*"
+    {
+      "email": "bmansion@mamasam.com",
+      "name": "Bertrand Mansion",
+      "role": "Lead"
     },
-    "require-dev": {
-        "phpunit/phpunit": "*"
+    {
+      "email": "adaniel1@eesus.jnj.com",
+      "name": "Adam Daniel",
+      "role": "Lead"
+    },
+    {
+      "email": "mi.liebana@gmail.com",
+      "name": "Miguel Liebana",
+      "role": "Developer"
     }
+  ],
+  "require": {
+    "php": "^7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "./HTML"
+    ]
+  },
+  "support": {
+    "issues": "https://github.com/znk3r/HTML_Common/issues",
+    "source": "https://github.com/znk3r/HTML_Common"
+  }
 }
