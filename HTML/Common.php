@@ -56,6 +56,11 @@ abstract class HTML_Common
         $this->setTabOffset($tabOffset);
     }
 
+    public function HTML_Common($attributes = null, $tabOffset = 0)
+    {
+        $this->__construct($attributes, $tabOffset);
+    }
+    
     /**
      * Returns the current API version
      *
