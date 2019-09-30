@@ -58,7 +58,7 @@ abstract class HTML_Common
 
     public function HTML_Common($attributes = null, $tabOffset = 0)
     {
-        $this->__construct($attributes, $tabOffset);
+        self::__construct($attributes, $tabOffset);
     }
     
     /**
