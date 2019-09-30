@@ -1,5 +1,5 @@
 {
-  "name": "znk3r/html_common",
+  "name": "pear/html_common",
   "type": "library",
   "description": "PHP 7 compatible fork of HTML_Common",
   "keywords": [ "php7", "html", "pear" ],
